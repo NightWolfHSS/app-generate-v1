@@ -9,24 +9,22 @@ body {
 	/*background: black;*/
 }
 header {
-	height: 100vh;
 	background: url('images/z1.jpg');
 	overflow: hidden;
 }
 .logo {border-bottom: 3px  solid #fff; background-image: linear-gradient( 99deg,  rgba(255,166,0,1) 14.7%, rgba(255,99,97,1) 73% ); }
 .logo h1 { text-align: center; color: white; font-family: Butterfun; font-weight: 100;  font-size: 50px;}
 .wrapper-head { 
-	height: 5000px;
+	height: 1000px;
     display: flex;
     justify-content: center;
 }
 .box-head {
 	margin-top: 50px;
 	width: 90%;
-	height: 15%;
 	border-radius: 10px;
 	background-image: linear-gradient( 86deg, rgb(16 23 56) 10.9%, rgb(81 84 115 / 94%) 87.1% );
-	border: 5px solid white;
+	border: 1px solid silver;
 }
 .contet-head-p {
 	padding-bottom: 20px;
@@ -51,14 +49,21 @@ header {
 	overflow: hidden;
 	border-radius: 10px;
 	border: 2px solid rgb(81 84 115 / 0);
-
 }
 .box-stuff > img { 	object-fit: contain; width: 100%; }
 .box-stuff:hover {
 	cursor: pointer;
 	border: 2px solid #0c81f6;
 }
+.line-jix {
+	margin: 20px auto 20px auto;
+	height: 5px;
+	width: 15%;
+	background-image: radial-gradient( circle 597px at 93% 9.8%,  rgba(255,61,89,1) 1.7%, rgba(252,251,44,1) 97% );
+	border-radius: 8px;
+}
 .pages-name {
+	background-color: silver;
 	height: 200px;
 	display: flex;
 	align-items: flex-end;
