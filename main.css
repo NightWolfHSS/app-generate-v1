@@ -1,14 +1,80 @@
+/*author: SLavik programmer sshnigtwolf*/
+@font-face {
+    font-family: 'Butterfun';
+    src: url('fonts/Butterfun.ttf');
+}
+/*=======================================*/
 * {padding: 0; margin: 0; color: white; font-family: Arial;}
-body {background: black;}
+body {
+	/*background: black;*/
+}
 header {
-	padding: 20px 5px;
-	background: #41BC66;
+	height: 100vh;
+	background: url('images/z1.jpg');
+	overflow: hidden;
 }
-.mapsengine > h2{
-	color: #41BC66;
+.logo {border-bottom: 3px  solid #fff; background-image: linear-gradient( 99deg,  rgba(255,166,0,1) 14.7%, rgba(255,99,97,1) 73% ); }
+.logo h1 { text-align: center; color: white; font-family: Butterfun; font-weight: 100;  font-size: 50px;}
+.wrapper-head { 
+	height: 5000px;
+    display: flex;
+    justify-content: center;
 }
-.mapsengine { 
-	padding: 5px;
-	background: #d8d01f;
+.box-head {
+	margin-top: 50px;
+	width: 90%;
+	height: 15%;
+	border-radius: 10px;
+	background-image: linear-gradient( 86deg, rgb(16 23 56) 10.9%, rgb(81 84 115 / 94%) 87.1% );
+	border: 5px solid white;
 }
-.mapsengine p { color: black; }
+.contet-head-p {
+	padding-bottom: 20px;
+	border-bottom: 1px solid orange;
+	margin: 20px auto 50px auto;
+	width: 500px;
+	color: silver;
+	font-size: 18px;
+	font-family: calibri;
+}
+.wp-content { text-align: center; margin-top: 20px;}
+.wp-content > h3 {font-family: Butterfun; font-size: 30px; font-weight: 100; color: orange;}
+.wrapper-box-stuff {
+	display: flex;
+	justify-content: center;
+}
+
+.box-stuff {
+	margin: 20px;
+	width: 150px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 10px;
+	border: 2px solid rgb(81 84 115 / 0);
+
+}
+.box-stuff > img { 	object-fit: contain; width: 100%; }
+.box-stuff:hover {
+	cursor: pointer;
+	border: 2px solid #0c81f6;
+}
+.pages-name {
+	height: 200px;
+	display: flex;
+	align-items: flex-end;
+	padding: 20px;
+}
+.pages-name > p {
+	font-family: Butterfun;
+	font-size: 60px;
+	background-image: linear-gradient( 109.6deg,  rgba(245,56,56,1) 11.2%, rgba(234,192,117,1) 78% );
+	padding: 20px;
+	border-radius: 20px;
+}
+
+
+footer {
+	height: 100vh;
+	width: 100%;
+	background-color: silver;
+}
